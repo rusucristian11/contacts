@@ -1,0 +1,97 @@
+.contact-details-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contact-details {
+    height: 520px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .contact-photo {
+
+      .profile-photo {
+        width: 450px;
+        height: 420px;
+      }
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      height: calc(100% - 423px);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding: 5px;
+
+      .contact-name-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: white;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        .contact-name {
+          font-weight: bold;
+          font-size: 25px;
+        }
+
+        .contact-email {
+          font-weight: 350;
+          font-size: 17px;
+        }
+      }
+
+      .back-button {
+        background-image: url("../../images/back-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        margin-top: 15px;
+        margin-right: 15px;
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-details-wrapper {
+    .contact-details {
+      height: 400px;
+      width: 325px;
+
+      .contact-photo {
+
+        .profile-photo {
+          width: 325px;
+          height: 330px;
+        }
+      }
+
+      .contact-info {
+        height: 75px;
+
+
+        .contact-name-email {
+
+          .contact-name {
+            font-weight: bold;
+            font-size: 20px;
+          }
+
+          .contact-email {
+            font-weight: 350;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

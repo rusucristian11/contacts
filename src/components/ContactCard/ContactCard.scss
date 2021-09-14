@@ -1,0 +1,60 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .item {
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+    .contact {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 5px;
+
+      .user-image {
+        margin-top: 13px;
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+
+      .contact-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+        .link{
+          text-decoration: none;
+          color: black;
+        }
+      }
+
+    }
+    .edit-delete {
+      display: flex;
+      justify-content: flex-end;
+      .edit-contact {
+        background-image: url("../../images/edit.png");
+        background-size: 22px 22px;
+        height: 22px;
+        width: 22px;
+        cursor: pointer;
+        margin-top: 16px;
+        margin-right: 10px;
+      }
+
+      .delete-contact {
+        background-image: url("../../images/trash.png");
+        height: 24px;
+        width: 24px;
+        cursor: pointer;
+        margin-top: 14px;
+      }
+    }
+  }
+}

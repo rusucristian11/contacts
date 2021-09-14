@@ -1,0 +1,127 @@
+@import "../../styles/rounded-card";
+
+.add-contact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .form-container {
+    .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 50px;
+
+      .form-title {
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 15px;
+      }
+
+      .form-name {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+        .label-name {
+          font-size: 20px;
+          font-weight: 400;
+          margin-bottom: 5px;
+        }
+
+        .input-name {
+          height: 30px;
+          border-radius: 3px;
+          border: grey 1px solid;
+        }
+      }
+
+      .form-email {
+        display: flex;
+        flex-direction: column;
+
+        .label-email {
+          font-size: 20px;
+          font-weight: 400;
+          margin-bottom: 5px;
+        }
+
+        .input-email {
+          height: 30px;
+          border-radius: 3px;
+          border: grey 1px solid;
+        }
+      }
+
+      .add-contact {
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16);
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        background-color: #1B998B;
+        color: white;
+        border-radius: 5px;
+        height: 30px;
+        margin-top: 30px;
+        align-items: center;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .add-contact {
+    .form-container {
+      width: 325px;
+      height: 300px;
+
+      .form {
+        padding: 20px;
+
+        .form-title {
+          font-size: 20px;
+          font-weight: bold;
+        }
+
+        .form-name {
+
+          .label-name {
+            font-size: 17px;
+            font-weight: 480;
+          }
+
+          .input-name {
+            height: 25px;
+          }
+        }
+
+        .form-email {
+
+          .label-email {
+            font-size: 17px;
+            font-weight: 480;
+          }
+
+          .input-email {
+            height: 25px;
+          }
+        }
+
+        .add-contact {
+          box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.16);
+          border: 2px solid rgba(0, 0, 0, 0.5);
+          background-color: #1B998B;
+          color: white;
+          border-radius: 5px;
+          height: 30px;
+          margin-top: 30px;
+          align-items: center;
+          font-weight: bold;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

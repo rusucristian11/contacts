@@ -1,0 +1,34 @@
+{
+  "contacts": [
+    {
+      "id": "563dcd74-d688-4efc-812a-8bd2fff8a4e8",
+      "name": "Oscar",
+      "email": "oscar@gmail.com"
+    },
+    {
+      "id": "37d2868f-5a52-4017-b7de-3c8dd8bf675b",
+      "name": "Martina",
+      "email": "martina@gmail.com"
+    },
+    {
+      "id": "68020c63-207c-464c-8cc4-ad8d1ca6a780",
+      "name": "Pruna",
+      "email": "pruna@gmail.com"
+    },
+    {
+      "id": "221a4475-7ba7-44cf-a0b1-15b757d6d5c0",
+      "name": "Sori",
+      "email": "sori@gmail.com"
+    },
+    {
+      "id": "e5cdd6ed-4d2c-413f-9ef9-be5cfa64e75e",
+      "name": "Balint",
+      "email": "balint@gmail.com"
+    },
+    {
+      "id": "836de22c-ed4f-406a-8c2c-e8d27a6b2ccc",
+      "name": " sori",
+      "email": "sori@gmail.com"
+    }
+  ]
+}
