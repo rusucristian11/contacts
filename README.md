@@ -19,5 +19,16 @@ And then start it by using:
 npm start
 ```
 
+![ScreenShot](src/images/screenshots/screenshot1.png)
+![ScreenShot](src/images/screenshots/screenshot2.png)
+![ScreenShot](src/images/screenshots/screenshot3.png)
+
+And also there is the mobile version for it: 
+
+![ScreenShot](src/images/screenshots/screenshot4.png)
+![ScreenShot](src/images/screenshots/screenshot5.png)
+
+
+
 
 
